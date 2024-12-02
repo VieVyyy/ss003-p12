@@ -1,0 +1,153 @@
+#choose {
+  text-decoration: underline;
+}
+
+/* For modern browsers */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 10px; /* Height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background of the scrollbar track */
+  border-radius: 10px; /* Round edges */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    45deg,
+    #ff7e5f,
+    #feb47b
+  ); /* Gradient color for scrollbar */
+  border-radius: 10px; /* Round edges */
+  border: 2px solid #f0f0f0; /* Optional: adds spacing between track and thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #feb47b, #ff7e5f); /* Hover effect */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Makes scrollbar thin */
+  scrollbar-color: #feb47b #f0f0f0; /* Thumb color and track color */
+}
+
+#head {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather", serif;
+}
+
+.navbar {
+  background-color: red;
+  color: white;
+  padding: 0;
+  margin: 0px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  margin: 0;
+  color: #f3e98f;
+  position: relative;
+}
+
+.nav-links a {
+  margin: 0;
+  text-decoration: none;
+  color: #f3e98f;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+}
+
+.nav-links a:hover {
+  background-color: darkred;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: darkred;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  min-width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li a {
+  margin: 0;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.dropdown-menu li a:hover {
+  background-color: crimson;
+}
+
+.hightext {
+  margin: 0.1rem;
+  color: #d40000;
+  font-size: 1.8rem;
+  font-family: "Merriweather", serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+}
+
+.content {
+  margin: 2% 5%;
+  text-align: justify;
+}
+
+#first {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-items: stretch;
+  align-items: start;
+}
+
+#first > img {
+  height: 50vh;
+}
+
+.footer {
+  clear: both;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer p {
+  height: 10rem;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d40000;
+  color: white;
+}

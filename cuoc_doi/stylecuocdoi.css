@@ -1,0 +1,302 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#head {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+  background-color: red;
+  color: white;
+  padding: 0;
+  margin: 0px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links li {
+  margin: 0;
+  color: #f3e98f;
+  position: relative;
+  font-family: "Merriweather", serif;
+}
+
+.nav-links a {
+  margin: 0;
+  text-decoration: none;
+  color: #f3e98f;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+}
+
+.nav-links a:hover {
+  background-color: darkred;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: darkred;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  min-width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu li a {
+  margin: 0;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.dropdown-menu li a:hover {
+  background-color: crimson;
+}
+
+.hightext {
+  margin: 0.1rem;
+  color: #d40000;
+  display: block;
+  font-size: 1.8rem;
+  font-family: "Merriweather", serif;
+}
+
+#text1 {
+  margin: 1rem;
+  color: #d40000;
+  display: block;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+}
+
+.tacphamvanhoc > p {
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-bottom: 1%;
+}
+
+.cactacpham {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cactacpham2 {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cactacpham > div {
+  text-align: center;
+}
+
+.cactacpham p {
+  word-wrap: break-word; /* Break words if they are too long */
+  word-break: break-word; /* Ensures compatibility for breaking long words */
+  white-space: normal; /* Allows text to wrap */
+  overflow-wrap: break-word; /* Modern property for word breaking */
+}
+
+.footer {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer p {
+  height: 10rem;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d40000;
+  color: white;
+}
+
+#choose {
+  text-decoration: underline;
+}
+
+/* For modern browsers */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 10px; /* Height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background of the scrollbar track */
+  border-radius: 10px; /* Round edges */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    45deg,
+    #ff7e5f,
+    #feb47b
+  ); /* Gradient color for scrollbar */
+  border-radius: 10px; /* Round edges */
+  border: 2px solid #f0f0f0; /* Optional: adds spacing between track and thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(45deg, #feb47b, #ff7e5f); /* Hover effect */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Makes scrollbar thin */
+  scrollbar-color: #feb47b #f0f0f0; /* Thumb color and track color */
+}
+
+body {
+  background-color: #fffad0;
+}
+
+.dot1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #d40000;
+  display: flex;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.contentpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#line {
+  position: absolute;
+  margin-bottom: 55vh;
+  margin-left: 5vw;
+  width: 12vh;
+}
+
+#last {
+  margin-bottom: 10vh;
+}
+
+#vertical {
+  position: absolute;
+  height: 52vh;
+  margin-bottom: 4vh;
+}
+
+.well {
+  color: #d40000;
+  background-color: white;
+  border-radius: 10%;
+  width: 15vh;
+  text-align: center;
+  border: 3px solid red;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+}
+
+#place1 {
+  margin-bottom: 49vh;
+  margin-left: 39vh;
+}
+
+.new > p {
+  padding: 0px;
+  margin: 0px;
+  color: #d40000;
+  font-size: 1.5vh;
+}
+
+#line2 {
+  position: absolute;
+  margin-bottom: 30vh;
+  margin-right: 7vw;
+  width: 12vh;
+}
+
+#place2 {
+  margin-bottom: 24vh;
+  margin-right: 42vh;
+}
+
+#line3 {
+  position: absolute;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  width: 12vh;
+}
+#place3 {
+  margin-top: 2vh;
+  margin-left: 39vh;
+}
+
+#line4 {
+  position: absolute;
+  margin-top: 20vh;
+  margin-right: 7vw;
+  width: 12vh;
+}
+#place4 {
+  margin-top: 21vh;
+  margin-right: 42vh;
+}
+
+#line5 {
+  position: absolute;
+  margin-top: 45vh;
+  margin-left: 5vw;
+  width: 12vh;
+}
+#place5 {
+  margin-top: 46vh;
+  margin-left: 39vh;
+}
+
+a {
+  text-decoration: none;
+  color: #d40000;
+}
